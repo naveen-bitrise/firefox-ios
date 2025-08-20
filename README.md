@@ -1,4 +1,4 @@
-# Firefox for iOS and Focus iOS
+# Firefox for iOS and Focus iOS - Clone
 
 Download [Firefox iOS](https://apps.apple.com/app/firefox-web-browser/id989804926) and [Focus iOS](https://itunes.apple.com/app/id1055677337) on the App Store.
 
