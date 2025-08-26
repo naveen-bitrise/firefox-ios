@@ -101,6 +101,7 @@ class SummarizeCoordinator: BaseCoordinator, SummarizerServiceLifecycle {
         }
         let model = SummarizeViewModel(
             titleLabelA11yId: AccessibilityIdentifiers.Summarizer.titleLabel,
+            titleLabelA11yLabel: .Summarizer.TitleAccessibilityLabel,
             loadingLabel: .Summarizer.LoadingLabel,
             loadingA11yLabel: .Summarizer.LoadingAccessibilityLabel,
             loadingA11yId: AccessibilityIdentifiers.Summarizer.loadingLabel,

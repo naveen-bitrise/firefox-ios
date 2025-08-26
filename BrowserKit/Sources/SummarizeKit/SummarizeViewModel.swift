@@ -7,6 +7,7 @@ import ComponentLibrary
 
 public struct SummarizeViewModel {
     let titleLabelA11yId: String
+    let titleLabelA11yLabel: String
     let loadingLabel: String
     let loadingA11yLabel: String
     let loadingA11yId: String
@@ -27,6 +28,7 @@ public struct SummarizeViewModel {
 
     public init(
         titleLabelA11yId: String,
+        titleLabelA11yLabel: String,
         loadingLabel: String,
         loadingA11yLabel: String,
         loadingA11yId: String,
@@ -44,6 +46,7 @@ public struct SummarizeViewModel {
         onShouldShowTabSnapshot: @escaping @MainActor () -> Void
     ) {
         self.titleLabelA11yId = titleLabelA11yId
+        self.titleLabelA11yLabel = titleLabelA11yLabel
         self.loadingLabel = loadingLabel
         self.loadingA11yLabel = loadingA11yLabel
         self.loadingA11yId = loadingA11yId

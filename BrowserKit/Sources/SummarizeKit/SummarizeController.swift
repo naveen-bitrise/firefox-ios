@@ -226,6 +226,7 @@ public class SummarizeController: UIViewController, Themeable, Notifiable, CAAni
 
     private func configure() {
         titleLabel.accessibilityIdentifier = viewModel.titleLabelA11yId
+        titleLabel.accessibilityLabel = viewModel.titleLabelA11yLabel
         loadingLabel.text = viewModel.loadingLabel
         loadingLabel.accessibilityIdentifier = viewModel.loadingA11yId
         loadingLabel.accessibilityLabel = viewModel.loadingA11yLabel
