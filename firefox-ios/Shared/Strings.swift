@@ -2282,6 +2282,12 @@ extension String {
             value: "Close summary",
             comment: "The a11y label for the tab snapshot view that shows on top of the summary view and tapping on the view will close the summary view."
         )
+        public static let TitleAccessibilityLabel = MZLocalizedString(
+            key: "", // Summarizer.Title.Accessibility.Label.v142
+            tableName: "Summarizer",
+            value: "Summary title",
+            comment: "The a11y label for the title label in the summary view."
+        )
     }
 }
 
